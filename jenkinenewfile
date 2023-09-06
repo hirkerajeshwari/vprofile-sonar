@@ -11,7 +11,7 @@ pipeline {
     stages{
 	stage('Git-Clone'){
             steps {
-                git changelog: false, poll: false, url: 'https://github.com/devopshydclub/vprofile-project.git'
+                git changelog: false, poll: false, url: 'https://github.com/hirkerajeshwari/vprofile-sonar.git'
             }
         }
 
